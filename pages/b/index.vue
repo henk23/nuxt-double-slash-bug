@@ -3,7 +3,7 @@
     <div>
       <Logo />
       <h1 class="title">
-        /A INDEX
+        /B INDEX
       </h1>
     </div>
   </div>

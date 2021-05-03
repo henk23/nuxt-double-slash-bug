@@ -52,5 +52,15 @@ export default {
         ["@babel/plugin-proposal-private-methods", { "loose": true }],
       ],
     },
-  }
+  },
+
+  router: {
+    middleware: [
+      'my-middleware',
+    ],
+  },
+
+  serverMiddleware: [
+    '~/server-middleware/my-server-middleware.js',
+  ]
 }
